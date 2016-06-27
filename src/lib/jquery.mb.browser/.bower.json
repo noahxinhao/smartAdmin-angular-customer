@@ -1,0 +1,14 @@
+{
+  "name": "jquery.mb.browser",
+  "homepage": "https://github.com/pupunzi/jquery.mb.browser",
+  "_release": "65a3673cf4",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "65a3673cf47a04328e30397846a2b73d7dfd8cf9"
+  },
+  "_source": "https://github.com/pupunzi/jquery.mb.browser.git",
+  "_target": "*",
+  "_originalSource": "jquery.mb.browser",
+  "_direct": true
+}

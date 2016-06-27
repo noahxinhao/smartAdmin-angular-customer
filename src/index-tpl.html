@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="app" manifest="manifest/webApp.manifest">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>贷后邦后台管理系统</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- bower:css-->
+  <!-- endinject -->
+
+  <!-- components:css-->
+  <!-- endinject -->
+
+  <!-- application:css-->
+  <!-- endinject -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+<div ui-view></div>
+
+<!--bower:js-->
+<!-- endinject -->
+
+<!--components:js-->
+<!-- endinject -->
+
+<!--application:js-->
+<!-- endinject -->
+
+<!--template:js-->
+<!-- endinject -->
+
+<script type="text/javascript">
+  window.addEventListener('load', function (e) {
+    window.applicationCache.addEventListener('updateready', function (e) {
+      if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+        window.applicationCache.swapCache();
+        window.location.reload();
+      } else {
+      }
+    }, false);
+  }, false);
+</script>
+</body>
+</html>

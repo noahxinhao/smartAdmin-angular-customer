@@ -1,0 +1,15 @@
+{
+  "name": "fastclick",
+  "homepage": "https://github.com/ftlabs/fastclick",
+  "version": "0.6.7",
+  "_release": "0.6.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.6.7",
+    "commit": "fcfdcf3f61cf5f0134354b88f6f5577c6989881b"
+  },
+  "_source": "https://github.com/ftlabs/fastclick.git",
+  "_target": "0.6.7",
+  "_originalSource": "fastclick",
+  "_direct": true
+}
